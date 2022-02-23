@@ -39,7 +39,10 @@ struct VideoDetail: View {
                 
             Text(video.description)
             .font(.body)
-        .padding()
+            .padding()
+            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                /*@START_MENU_TOKEN@*/Text("Button")/*@END_MENU_TOKEN@*/
+            }
             
             Spacer()
             
